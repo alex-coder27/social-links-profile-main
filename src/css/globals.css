@@ -32,12 +32,12 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     margin: 0 auto;
     text-align: center;
-    max-width: 1440px;
-    height: 100vh;
-    padding: 20px 10px;
+    max-width: 90em;
+    min-height: 100vh;
+    gap: 30px;
+    padding: 1.25rem 0.625rem;
     background-color: var(--color-dark-grey);
 }

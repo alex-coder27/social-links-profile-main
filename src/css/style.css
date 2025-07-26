@@ -1,68 +1,70 @@
 .profile-card {
     background-color: var(--color-medium-grey);
-    width: 384px;
-    height: 612px;
-    border-radius: 13px;
-    padding: 40px;
+    width: 24rem;
+    height: 38.25rem;
+    border-radius: 0.8125rem;
+    padding: 2.5rem;
+    margin-top: auto;
 }
 
 .profile-picture {
-    width: 88px;
-    height: 88px;
+    width: 5.5rem;
+    height: 5.5rem;
     border-radius: 50%;
     object-fit: cover;
-    margin: 0 auto 25px;
+    margin: 0 auto 1.5625rem;
 }
 
 .profile-name {
-    color: var(--color-white);
     font-size: 1.5rem;
     font-weight: 600;
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
 }
 
 .profile-location {
     color: var(--color-green);
     font-size: 0.875rem;
     font-weight: 700;
-    margin-bottom: 28px;
+    margin-bottom: 1.75rem;
 }
 
 .profile-bio {
     font-size: 0.8rem;
-    font-weight: 400;
-    margin-bottom: 25px;
+    font-weight: var(--font-weight-regular);
+    margin-bottom: 1.5625rem;
 }
 
 
 .social-links-list {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 0.9375rem;
 }
 
 .social-button {
     display: block;
     background-color: var(--color-light-grey);
     color: var(--color-white);
-    padding: 14px;
-    border-radius: 5px;
+    padding: 0.875rem;
+    border-radius: 0.3125rem;
     font-size: 0.875rem;
     font-weight: 600;
     text-align: center;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.social-button:hover {
+.social-button:hover,
+.social-button:focus {
     background-color: var(--color-green);
-    color: var(--color-off-black);
+    color: var(--color-dark-text);
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: 0.6875rem;
     text-align: center;
+    margin-bottom: auto;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(228, 71%, 57%);
 }
