@@ -1,0 +1,14 @@
+:root {
+    --color-dark-grey: hsl(0, 0%, 8%);
+    --color-medium-grey: hsl(0, 0%, 12%);
+    --color-light-grey: hsl(0, 0%, 20%);
+    --color-green: hsl(75, 94%, 57%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-off-black: hsl(0, 0%, 8%);
+
+    --font-weight-regular: 400;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    --font-family-inter: 'Inter';
+}
