@@ -4,7 +4,7 @@
     height: 38.25rem;
     border-radius: 0.8125rem;
     padding: 2.5rem;
-    margin-top: auto;
+    margin-block-start: auto;
 }
 
 .profile-picture {
@@ -18,20 +18,20 @@
 .profile-name {
     font-size: 1.5rem;
     font-weight: 600;
-    margin-bottom: 0.5rem;
+    margin-block-end: 0.5rem;
 }
 
 .profile-location {
     color: var(--color-green);
     font-size: 0.875rem;
     font-weight: 700;
-    margin-bottom: 1.75rem;
+    margin-block-end: 1.75rem;
 }
 
 .profile-bio {
     font-size: 0.8rem;
     font-weight: var(--font-weight-regular);
-    margin-bottom: 1.5625rem;
+    margin-block-end: 1.5625rem;
 }
 
 
@@ -62,9 +62,9 @@
 .attribution {
     font-size: 0.6875rem;
     text-align: center;
-    margin-bottom: auto;
+    margin-block-end: auto;
 }
 
 .attribution a {
-    color: hsl(228, 71%, 57%);
+    color: var(--color-link-footer);
 }

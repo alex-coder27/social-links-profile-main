@@ -3,3 +3,9 @@
         width: 100%;
     }
 }
+
+@media (prefers-reduced-motion: reduce) {
+    .social-button {
+        transition: none;
+    }
+}

@@ -5,10 +5,10 @@
     --color-green: hsl(75, 94%, 57%);
     --color-white: hsl(0, 0%, 100%);
     --color-dark-text: hsl(0, 0%, 8%);
+    --color-link-footer: hsl(228, 71%, 57%);
 
     --font-weight-regular: 400;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
-
     --font-family-inter: 'Inter';
 }
